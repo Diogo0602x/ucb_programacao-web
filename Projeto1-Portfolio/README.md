@@ -3,7 +3,7 @@ Projeto criado como objetivo de ser um portfólio para um desenvolvedor freelanc
 
 Link on Vercel: <https://portfolio-diogo0602x.vercel.app//>
 
-![Portfolio](/assets/Landing-page.PNG)
+![Portfolio](./assets/Landing-page.PNG)
 
 ## Linguagens e Frameworks Utilizados:
 - Html
