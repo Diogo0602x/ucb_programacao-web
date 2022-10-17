@@ -157,6 +157,10 @@ header{
   animation: moveBanner 1s  0.9s forwards;
 }
 
+.banner button:hover {
+  color: #a9a9a9;
+}
+
 @keyframes moveBanner {
   0%{ 
     transform: translateY(10rem) rotateY(-30deg);
@@ -400,6 +404,11 @@ header{
   width: 8rem;
   height: 2.5rem;
   cursor: pointer;
+  hover: #fff;
+}
+
+.card-info button:hover {
+  color: #a9a9a9;
 }
 
 .card:hover .card-info {
@@ -418,20 +427,20 @@ header{
 }
 
 .contato-wrapper {
-  width: 60%;
-  height: 30rem;
+  width: 70%;
+  height: 40rem;
   display: flex;
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 
 .contato-left {
-  width: 35%;
+  width: 50%;
   background: url(assets/contato1.jpg);
   background-size: cover;
 }
 
 .contato-right {
-  width: 65%;
+  width: 70%;
   background-color: #eee;
   padding: 1rem 3rem 3rem 3rem;
 }
@@ -459,7 +468,7 @@ header{
 .field {
   background: transparent;
   border: none;
-  width: 20rem;
+  width: 30rem;
   font-size: 1.5rem;
   font-family: var(--font-secundary);
   border-bottom: 2px dashed #636363;
@@ -470,7 +479,7 @@ header{
 
 .input-group textarea {
   padding-top: 1rem;
-  max-width: 25rem;
+  max-width: 30rem;
   max-height: 3rem;
 }
 
@@ -486,7 +495,7 @@ header{
 
 .field:focus ~ label {
   top: 0;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .field:focus{
@@ -496,7 +505,7 @@ header{
 .btn-submit{
   font-size: 1.2rem;
   text-transform: uppercase;
-  width: 80%;
+  width: 68%;
   height: 2.5rem;
   margin-top: 1rem;
   letter-spacing: 0.2rem;
